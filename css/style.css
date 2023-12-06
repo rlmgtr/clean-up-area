@@ -7,8 +7,6 @@
   --anotherblue: 404bbf;
   --commonblue:  #4d5ae5;
   --skygreen: 31d0aa;
-
-
 }
 
 body {
@@ -29,6 +27,8 @@ body {
   color: #4d5ae5;
   /*--hw3--*/
   margin-right: 76px;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 /* this is default LINK style - apply in all list tags*/
@@ -181,6 +181,8 @@ background-size: cover;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
+/*--hw3--*/
+  margin-bottom: 72px;
 }
 
 /* styles for fourth section */
@@ -231,6 +233,9 @@ background-size: cover;
   line-height: 1.5;
   color: #f4f4fd;
   letter-spacing: 0.02em;
+  margin-bottom: 16px;
+/*--hw3--*/
+  max-width: 264px;
   margin-bottom: 16px;
 }
 
@@ -408,10 +413,6 @@ img {
   padding-bottom: 120px;
 }
 
-.section-three-header-hwthree {
-  margin-bottom: 72px;
-}
-
 .secthree-ul-list-style {
   display: flex;
   gap: 24px;
@@ -440,8 +441,9 @@ img {
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
   0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+ /*--hw3--*/
+  background-color: #ffffff;
 }
-
 .employeedivstyle-hwthree {
   padding: 32px 0;
 }
@@ -461,15 +463,9 @@ img {
   padding: 100px 0;
 }
 
-.footerlink-hwthree {
-  display: inline-block;
-  margin-bottom: 16px;
-}
 
-.footer-p-hwthree {
-  max-width: 264px;
-  margin-bottom: 16px;
-}
+
+
 
 /* Portfolio Main */
 
@@ -621,8 +617,6 @@ list-style: none;
   height:88px;
 }
 
-
-
 .secfivelink-hwfour {
   width: 100%;
   height: 100%;
@@ -640,27 +634,19 @@ list-style: none;
   color:#404bbf;
 }
 
-
-
 .svgstylesecfive-hwfour {
 fill: currentColor;
-
 }
 
 /* ----------------footer ---------------- */
 
-
 .footerdiv-hwfour {
 display:flex;
 align-items: baseline;
-
-
-
 }
-.footerlogopardiv {
 
+.footerlogopardiv {
   margin-right: 120px;
-  
 }
 
 .footersocmedstyle-hwfour {
@@ -670,21 +656,17 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: #FFFFFF;
 margin-bottom: 16px;
-
 }
 
 .footer-ul-hwfour {
   list-style: none;
 display: flex;
 gap: 16px;
-
-
 }
 
 .footer-li-hwfour {
 width: 40px;
 height: 40px;
-
 }
 
 .footersocialslink {
@@ -695,7 +677,6 @@ border-radius: 50%;
 display:flex;
 align-items: center;
 justify-content: center;
-
 }
 
 .footersocialslink:hover,
@@ -703,22 +684,16 @@ justify-content: center;
   background-color:#31d0aa;
   }
 
-
-
 .footersvgli-hwfour {
 fill: var(--socmedcolor)
-
 }
 
 .footerdiv-hwfour {
 display: flex;
 align-items: baseline;
-
 }
 
 /* ----------------portfolio main ---------------- */
-
-
 
 .portfoliolink-hwfour {
 display:block;
