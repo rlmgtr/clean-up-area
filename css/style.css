@@ -4,7 +4,7 @@
     --lightgrayishblueone: #e7e9fc;
     --lightgrayishbluetwo: #f4f4fd; /* formerly socmend color */
     --darkgrayishblue: #8e8f99; /* formerly secfivelinkcolor */
-    --softblue: 4d5ae5; /* formerly blue */
+    --softblueone: 4d5ae5; /* formerly blue */
     --anotherblue: 404bbf; 
     --moderateblue:  #4d5ae5;
     --skygreen: 31d0aa;
@@ -81,24 +81,23 @@ body {
     align-items: center;  
   }
   
-  .menustyle-ul-hwthree {
+  .menustyle-ul {
     display: flex;
     margin-right: 40px;
+    gap: 40px;
   }
   
-  .menustyle-ul-hwthree {gap: 40px;}
   
-  .menustyle-li-hwthree { gap: 40px;}
   
+  .menustyle-li { gap: 40px;}
   .link-style-hwthree {padding: 24px 0 24px;}
-  
   .list-style-hwthree {
     gap: 40px;
     margin-right: 40px;
     margin-right: 0;
   }
-  
-  .address-style-hwthree {
+  /*hw3*/
+  .address-style-ul {
     display: flex;
     gap: 40px;
   }
@@ -208,7 +207,7 @@ body {
   
   .second-section-hwthree {  padding: 120px 0 120px;}
   
-  .sectwolist-hwthree {
+  .sectiontwo-ul {
     display: flex;
     gap: 24px;
     margin-right: 24px;
