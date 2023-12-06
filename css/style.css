@@ -27,6 +27,8 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  /*--hw3--*/
+  margin-right: 76px;
 }
 
 /* this is default LINK style - apply in all list tags*/
@@ -54,6 +56,8 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  /*--hw3--*/
+  padding: 24px 0;
 }
 
 .link-style:hover {
@@ -89,7 +93,20 @@ body {
 /* styles for first section */
 .first-section {
   background-color: #2e2f42;
+/*--hw3--*/
+  padding: 188px 0 188px;
+  justify-content: center;
+  align-items: center;
+  margin: auto 0;
+/*--hw4--*/
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+url(../images/seconebgimg.jpg);
+max-width: 1440px;
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
 }
+
 .first-section-header {
   font-size: 56px;
   line-height: 1.07;
@@ -266,18 +283,14 @@ body {
 }
 
 .nav-style {
-  display: flex;
   align-items: center;
-}
-
-.logo-style-hwthree {
-  margin-right: 76px;
-}
-
-.nav-style-hwthree {
+  /* --hw3-- */
   display: flex;
   gap: 40px;
 }
+
+
+
 
 .menustyle-ul-hwthree {
   display: flex;
@@ -302,10 +315,6 @@ body {
   margin-right: 0;
 }
 
-.menulist-linkstyle-hwthree {
-  padding: 24px 0;
-}
-
 
 .address-style-hwthree {
   display: flex;
@@ -317,13 +326,6 @@ img {
 }
 
 /* Main page sec 1 - index */
-
-.first-section-hwthree {
-  padding: 188px 0 188px;
-  justify-content: center;
-  align-items: center;
-  margin: auto 0;
-}
 
 .firstsecheader-hwthree {
   max-width: 496px;
@@ -535,13 +537,6 @@ img {
 
 /* ----------------first section---------------- */
 
-.first-section-hwfour {
-background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-url(../images/seconebgimg.jpg);
-max-width: 1440px;
-background-repeat: no-repeat;
-background-position: center;
-background-size: cover;
 
 }
 
